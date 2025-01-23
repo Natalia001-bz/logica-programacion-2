@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    gap: 3rem;
+    background-image: url('images/fondo2.jpg'); 
+    background-size: cover; 
+    background-position: center;
+
+    
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* color:  #282c34;; */
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    z-index: 1000;
+    background-image: url('images/fondo2.jpg'); 
+    background-size: cover; 
+    background-position: center;
+   
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #c4d8d9 39%, #a49bbb 96%);
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px;
+    color:  #372833;
+}
+
+
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+input {
+    width: 50%;
+    font-size: medium;
+    }
+
+button {
+    color: white;
+    cursor: pointer;
+    background-color: #33565c;
+}
+
+button:hover {
+    background-color: #372833;
+}
+#resultados{
+    width: 90%;
+    border-radius: 10px;
+    padding-left: 30%;
+    margin: 30px;
+    font-size: large;
+    font-weight: 700;
+    white-space:nowrap; ;
+    text-align: justify;
+    
+}

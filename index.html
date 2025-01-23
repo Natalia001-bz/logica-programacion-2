@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link rel="shortcut icon" href="images/javaScript.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+        <h1>Conversor de temperatura</h1>
+    </div>
+  
+
+    <div class="content  "> 
+        <h1>conversor de °C a °F </h1> 
+            <input type="number" id="cel-far" placeholder="Ingresa la temperatura en °C "> 
+            <button onclick="celsiusFahrenheit()">Covertir</button> 
+        <div id="resultados"></div>
+    </div>
+
+    <div class="content "> 
+        <h1>conversor de °C a °K </h1> 
+        
+            <input type="number" id="cel-kel" placeholder="Ingresa la temperatura en °C "> 
+            <button onclick="celsiusKelvin()">Covertir</button> 
+        <div id="resultados2"></div>
+    </div>
+    
+    <button class="reinicio" id="reinicio">Reiniciar</button>
+<script src="index.js"> </script>   
+</body>
+</html>
